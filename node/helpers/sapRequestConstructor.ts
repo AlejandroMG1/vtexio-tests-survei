@@ -2,40 +2,54 @@ import type { Order } from '../types/orders'
 import { calculateValuePerCategory } from './calculateCategoryValue'
 import { selectItemsByCategory } from './selectItemsByCategory'
 
-export async function sapRequestConstructor(
+export function sapRequestConstructor(
   orderData: Order,
   addOnsCategory: number,
-  mainItemsCategory:number
+  mainItemsCategory: number
 ) {
-  const totalAddOns = calculateValuePerCategory(addOnsCategory,orderData.items)
-  const mainItems = selectItemsByCategory(mainItemsCategory,orderData.items)
+  const statusClass: { [key: string]: string } = {
+    handling: 'ZTEC',
+    'ready-for-handling': 'ZTCO',
+    invoiced: 'ZTEO',
+  }
+
+  let shippingDate = ''
+
+  try {
+    shippingDate = orderData.shippingData.logisticsInfo[0].shippingEstimateDate
+      .slice(0, 10)
+      .split('-')
+      .join('')
+  } catch (error) {
+    throw new Error('invalidDate')
+  }
+
+  const totalAddOns = calculateValuePerCategory(addOnsCategory, orderData.items)
+  const mainItems = selectItemsByCategory(mainItemsCategory, orderData.items)
   const data = {
     Order: {
       Header: {
         Source: 'TOL',
-        PurchaseOrder: orderData.orderId, // "12345",
-        OrderDate: orderData.creationDate.slice(0, 10).split('-').join(''), // "20190918"
-        SoldTo: orderData.clientProfileData.document, // IdCliente,              //"1009507", //codigo devuelto por SAP // buscar el Interlocutor que cumpla con condiciones IdOrgVentas = CO01 y IdFuncionInterloc =  AG
+        PurchaseOrder: orderData.orderId,
+        OrderDate: orderData.creationDate.slice(0, 10).split('-').join(''),
+        SoldTo: orderData.clientProfileData.document,
         ShipTo: orderData.sellers.join(','),
         DeliveryPreferenceDate: orderData.shippingData.logisticsInfo[0].shippingEstimateDate
           .slice(0, 10)
           .split('-')
-          .join(''), // "20190905",
-        FreightTerms: '01', // SIEMPRE VALOR 01
-        TextDescriptive: 'NA', // Opcional
-        SalesDocCl: 'ZCTO', // estatico
-        IdSaleOrg: 'CO01', // estatico
-        IdText: 'ZCE1', // estatico
-        PayCondition: 'ANT', // Anticipado
+          .join(''),
+        FreightTerms: '01',
+        TextDescriptive: 'NA',
+        SalesDocCl: statusClass[orderData.status],
+        IdSaleOrg: 'CO01',
+        IdText: 'ZCE1',
+        PayCondition: 'ANT',
       },
       Positions: {
-        DeliveryDate: orderData.shippingData.logisticsInfo[0].shippingEstimateDate
-          .slice(0, 10)
-          .split('-')
-          .join(''),
+        DeliveryDate: shippingDate,
         UOMSales: 'SC',
         totalAddOns,
-        mainItems
+        mainItems,
       },
     },
   }
