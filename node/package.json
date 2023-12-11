@@ -11,6 +11,7 @@
     "@vtex/api": "6.46.0",
     "@vtex/test-tools": "^1.0.0",
     "@vtex/tsconfig": "^0.5.6",
+    "jest": "^29.7.0",
     "typescript": "3.9.7"
   },
   "resolutions": {
@@ -19,7 +20,8 @@
     "@types/express-serve-static-core": "4.16.0"
   },
   "scripts": {
-    "lint": "tsc --noEmit --pretty"
+    "lint": "tsc --noEmit --pretty",
+    "test": "jest"
   },
   "version": "0.2.22"
 }
