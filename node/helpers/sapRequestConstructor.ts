@@ -1,9 +1,10 @@
-import type { Order } from '../types/orders'
+import type { OrderDetailResponse } from '@vtex/clients'
+
 import { calculateValuePerCategory } from './calculateCategoryValue'
 import { selectItemsByCategory } from './selectItemsByCategory'
 
 export function sapRequestConstructor(
-  orderData: Order,
+  orderData: OrderDetailResponse,
   addOnsCategory: number,
   mainItemsCategory: number
 ) {
@@ -16,10 +17,11 @@ export function sapRequestConstructor(
   let shippingDate = ''
 
   try {
-    shippingDate = orderData.shippingData.logisticsInfo[0].shippingEstimateDate
-      .slice(0, 10)
-      .split('-')
-      .join('')
+    shippingDate =
+      orderData.shippingData?.logisticsInfo[0].shippingEstimateDate
+        ?.slice(0, 10)
+        .split('-')
+        .join('') ?? ''
   } catch (error) {
     throw new Error('invalidDate')
   }
@@ -33,11 +35,8 @@ export function sapRequestConstructor(
         PurchaseOrder: orderData.orderId,
         OrderDate: orderData.creationDate.slice(0, 10).split('-').join(''),
         SoldTo: orderData.clientProfileData.document,
-        ShipTo: orderData.sellers.join(','),
-        DeliveryPreferenceDate: orderData.shippingData.logisticsInfo[0].shippingEstimateDate
-          .slice(0, 10)
-          .split('-')
-          .join(''),
+        ShipTo: orderData.sellers.map((seller) => seller.id).join(','),
+        DeliveryPreferenceDate: shippingDate,
         FreightTerms: '01',
         TextDescriptive: 'NA',
         SalesDocCl: statusClass[orderData.status],

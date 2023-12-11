@@ -1,13 +1,17 @@
 import { json } from 'co-body'
 
-import type { Order } from '../types/orders'
 import { sapRequestConstructor } from '../helpers/sapRequestConstructor'
 
 export async function integrateOrder(ctx: Context, next: () => Promise<any>) {
-  const body: Order = await json(ctx.req)
+  const {
+    clients: { oms },
+  } = ctx
+
+  const body = await json(ctx.req)
 
   try {
-    const sapRequest = sapRequestConstructor(body, 1, 2)
+    const order = await oms.order(body.OrderId)
+    const sapRequest = sapRequestConstructor(order, 1, 2)
 
     ctx.status = 200
     ctx.body = sapRequest
