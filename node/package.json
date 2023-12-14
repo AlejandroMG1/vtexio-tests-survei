@@ -1,11 +1,13 @@
 {
   "dependencies": {
+    "@vtex/clients": "^2.21.0",
     "co-body": "^6.0.0",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.23.3",
     "@types/co-body": "^0.0.3",
-    "@types/jest": "^24.0.18",
+    "@types/jest": "^29.5.11",
     "@types/node": "^12.0.0",
     "@types/ramda": "types/npm-ramda#dist",
     "@vtex/api": "6.46.0",

@@ -1,0 +1,2298 @@
+[
+    {
+        "emailTracked": "73c74cb17331485bb74ec63a9001cbef@ct.vtex.com.br",
+        "approvedBy": null,
+        "cancelledBy": null,
+        "cancelReason": null,
+        "handlingData": null,
+        "orderId": "1382840720911-01",
+        "sequence": "720911",
+        "marketplaceOrderId": "",
+        "marketplaceServicesEndpoint": null,
+        "sellerOrderId": "STR-1382840720911-01",
+        "origin": "Marketplace",
+        "affiliateId": "",
+        "salesChannel": "1",
+        "merchantName": null,
+        "status": "invoiced",
+        "workflowIsInError": false,
+        "statusDescription": "Faturado",
+        "value": 3490000,
+        "creationDate": "2023-12-12T03:51:57.1395038+00:00",
+        "lastChange": "2023-12-12T03:54:45.3843911+00:00",
+        "orderGroup": null,
+        "totals": [
+            {
+                "id": "Items",
+                "name": "Total de los items",
+                "value": 2932773
+            },
+            {
+                "id": "Discounts",
+                "name": "Total de descuentos",
+                "value": 0
+            },
+            {
+                "id": "Shipping",
+                "name": "Costo total del envío",
+                "value": 0
+            },
+            {
+                "id": "Tax",
+                "name": "Costo total del cambio",
+                "value": 557227
+            }
+        ],
+        "items": [
+            {
+                "uniqueId": "F1FACA1D52864730ACF2839AF5421ED4",
+                "id": "1112",
+                "productId": "136",
+                "ean": "type:573;size:569;mass:0;edge:0;sauce:71",
+                "lockId": null,
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "papajohnsstrada",
+                "name": "Pizza PlanA Pepperoni Piña Familiar Masa-delgada Borde-tradicional Salsa-Pizza",
+                "refId": "573;569;0;0;71;C",
+                "price": 2932773,
+                "listPrice": 2932773,
+                "manualPrice": null,
+                "priceTags": [
+                    {
+                        "name": "tax@price-137bface-ecf2-4099-939e-2d7e37df154c#4df49edc-b66a-4ddb-acd1-f004468ffe0c",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": null,
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    }
+                ],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/157157-55-55/01-Pizza-PlanA-Pepperoni-Piña-v5--1-.png?v=638219491847030000",
+                "detailUrl": "/favorita-pepperoni-pina-atc-136/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "1112",
+                "priceValidUntil": "2024-12-12T03:48:39.0000000+00:00",
+                "commission": 0,
+                "tax": 557227,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/1/20/",
+                    "categories": [
+                        {
+                            "id": 20,
+                            "name": "Promociones"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Pizzas"
+                        }
+                    ],
+                    "productClusterId": "138,142,143",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 1.0,
+                        "height": 1.0,
+                        "length": 1.0,
+                        "weight": 1.0,
+                        "width": 1.0
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0,
+                "sellingPrice": 2932773,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 2932773,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 2932773,
+                    "total": 2932773
+                },
+                "taxCode": "",
+                "parentItemIndex": null,
+                "parentAssemblyBinding": null,
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": null
+            },
+            {
+                "uniqueId": "4B2CB06895DA40AF9234285D5880905E",
+                "id": "608",
+                "productId": "76",
+                "ean": "567",
+                "lockId": null,
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "papajohnsstrada",
+                "name": "Ingredientes Base Queso Mozzarella",
+                "refId": "567-Base",
+                "price": 0,
+                "listPrice": 0,
+                "manualPrice": null,
+                "priceTags": [],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156509-55-55/Queso.jpg?v=637743636495230000",
+                "detailUrl": "/ingredientes-base-76/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "608",
+                "priceValidUntil": "2024-12-12T03:48:08.0000000+00:00",
+                "commission": 0,
+                "tax": 0,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/13/19/",
+                    "categories": [
+                        {
+                            "id": 19,
+                            "name": "Ingredientes Base"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Modificadores"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 0.0002,
+                        "height": 1.0,
+                        "length": 1.0,
+                        "weight": 1.0,
+                        "width": 1.0
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0,
+                "sellingPrice": 0,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 0,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 0,
+                    "total": 0
+                },
+                "taxCode": "",
+                "parentItemIndex": "0",
+                "parentAssemblyBinding": "base-pepperoni-piña-atc_Personaliza tu pizza",
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": null
+            },
+            {
+                "uniqueId": "F6845F7AAD734306AAE67FEF2919D5A8",
+                "id": "621",
+                "productId": "76",
+                "ean": "132",
+                "lockId": null,
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "papajohnsstrada",
+                "name": "Ingredientes Base Piña",
+                "refId": "132-Base",
+                "price": 0,
+                "listPrice": 0,
+                "manualPrice": null,
+                "priceTags": [],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156516-55-55/Piña.jpg?v=637743638202570000",
+                "detailUrl": "/ingredientes-base-76/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "621",
+                "priceValidUntil": "2024-12-12T03:48:08.0000000+00:00",
+                "commission": 0,
+                "tax": 0,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/13/19/",
+                    "categories": [
+                        {
+                            "id": 19,
+                            "name": "Ingredientes Base"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Modificadores"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 0.0002,
+                        "height": 1.0,
+                        "length": 1.0,
+                        "weight": 1.0,
+                        "width": 1.0
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0,
+                "sellingPrice": 0,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 0,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 0,
+                    "total": 0
+                },
+                "taxCode": "",
+                "parentItemIndex": "0",
+                "parentAssemblyBinding": "base-pepperoni-piña-atc_Personaliza tu pizza",
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": null
+            },
+            {
+                "uniqueId": "7756B6815D6243E389FE339524FC8D9D",
+                "id": "604",
+                "productId": "76",
+                "ean": "121",
+                "lockId": null,
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "papajohnsstrada",
+                "name": "Ingredientes Base Pepperoni",
+                "refId": "121-Base",
+                "price": 0,
+                "listPrice": 0,
+                "manualPrice": null,
+                "priceTags": [],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156505-55-55/Pepperoni.jpg?v=637743635604400000",
+                "detailUrl": "/ingredientes-base-76/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "604",
+                "priceValidUntil": "2024-12-12T03:48:08.0000000+00:00",
+                "commission": 0,
+                "tax": 0,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/13/19/",
+                    "categories": [
+                        {
+                            "id": 19,
+                            "name": "Ingredientes Base"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Modificadores"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 1.0,
+                        "height": 1.0,
+                        "length": 1.0,
+                        "weight": 1.0,
+                        "width": 1.0
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0,
+                "sellingPrice": 0,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 0,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 0,
+                    "total": 0
+                },
+                "taxCode": "",
+                "parentItemIndex": "0",
+                "parentAssemblyBinding": "base-pepperoni-piña-atc_Personaliza tu pizza",
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": null
+            }
+        ],
+        "marketplaceItems": [],
+        "clientProfileData": {
+            "id": "clientProfileData",
+            "email": "takeshiposada@gmail.com",
+            "firstName": "Antonio",
+            "lastName": "Posada",
+            "documentType": "cedulaCOL",
+            "document": "1007020627",
+            "phone": "+573128310010",
+            "corporateName": null,
+            "tradeName": null,
+            "corporateDocument": null,
+            "stateInscription": "",
+            "corporatePhone": null,
+            "isCorporate": false,
+            "userProfileId": "2d122141-5038-4d25-b0fc-779e3355742b",
+            "userProfileVersion": null,
+            "customerClass": null
+        },
+        "giftRegistryData": null,
+        "marketingData": null,
+        "ratesAndBenefitsData": {
+            "id": "ratesAndBenefitsData",
+            "rateAndBenefitsIdentifiers": []
+        },
+        "shippingData": {
+            "id": "shippingData",
+            "address": {
+                "addressType": "pickup",
+                "receiverName": "Antonio Posada",
+                "addressId": "201-3",
+                "versionId": null,
+                "entityId": null,
+                "postalCode": "05001",
+                "city": "Medellín",
+                "state": "Antioquia",
+                "country": "COL",
+                "street": "Carrera 43A #1sur-124",
+                "number": "",
+                "neighborhood": "Strada",
+                "complement": "Tel: (601)7050505",
+                "reference": null,
+                "geoCoordinates": [
+                    -75.57178,
+                    6.20202
+                ]
+            },
+            "logisticsInfo": [
+                {
+                    "itemIndex": 0,
+                    "selectedSla": "Pedir y recoger Strada-201 (201-3)",
+                    "lockTTL": "6d",
+                    "price": 0,
+                    "listPrice": 0,
+                    "sellingPrice": 0,
+                    "deliveryWindow": null,
+                    "deliveryCompany": "201-3 Recogida en tienda",
+                    "shippingEstimate": "30m",
+                    "shippingEstimateDate": "2023-12-12T04:23:29.0596858+00:00",
+                    "slas": [
+                        {
+                            "id": "Pedir y recoger Strada-201 (201-3)",
+                            "name": "Pedir y recoger Strada-201 (201-3)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "201-3",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "05001",
+                                    "city": "Medellín",
+                                    "state": "Antioquia",
+                                    "country": "COL",
+                                    "street": "Carrera 43A #1sur-124",
+                                    "number": "",
+                                    "neighborhood": "Strada",
+                                    "complement": "Tel: (601)7050505",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -75.57178,
+                                        6.20202
+                                    ]
+                                },
+                                "dockId": null,
+                                "friendlyName": "Recoger lo antes posible en Strada Medellín",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "strada-201",
+                            "lockTTL": "6d",
+                            "pickupPointId": "papajohnsstrada_201-3",
+                            "transitTime": "30m",
+                            "pickupDistance": 0.0
+                        },
+                        {
+                            "id": "Estoy en la tienda Strada-201 (201-5)",
+                            "name": "Estoy en la tienda Strada-201 (201-5)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "201-5",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "05001",
+                                    "city": "Medellín",
+                                    "state": "Antioquia",
+                                    "country": "COL",
+                                    "street": "Carrera 43A #1sur-124",
+                                    "number": "",
+                                    "neighborhood": "Strada",
+                                    "complement": "Tel: (601)7050505",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -75.57178,
+                                        6.20202
+                                    ]
+                                },
+                                "dockId": null,
+                                "friendlyName": "Estoy en la tienda Strada Medellín",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "strada-201",
+                            "lockTTL": "6d",
+                            "pickupPointId": "papajohnsstrada_201-5",
+                            "transitTime": "30m",
+                            "pickupDistance": 0.0
+                        }
+                    ],
+                    "shipsTo": [
+                        "COL"
+                    ],
+                    "deliveryIds": [
+                        {
+                            "courierId": "201-3",
+                            "courierName": "201-3 Recogida en tienda",
+                            "dockId": "201",
+                            "quantity": 1,
+                            "warehouseId": "201",
+                            "accountCarrierName": null,
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "deliveryChannels": [
+                        {
+                            "id": "pickup-in-point",
+                            "stockBalance": 0
+                        }
+                    ],
+                    "deliveryChannel": "pickup-in-point",
+                    "pickupStoreInfo": {
+                        "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                        "address": {
+                            "addressType": "pickup",
+                            "receiverName": null,
+                            "addressId": "201-3",
+                            "versionId": null,
+                            "entityId": null,
+                            "postalCode": "05001",
+                            "city": "Medellín",
+                            "state": "Antioquia",
+                            "country": "COL",
+                            "street": "Carrera 43A #1sur-124",
+                            "number": "",
+                            "neighborhood": "Strada",
+                            "complement": "Tel: (601)7050505",
+                            "reference": null,
+                            "geoCoordinates": [
+                                -75.57178,
+                                6.20202
+                            ]
+                        },
+                        "dockId": null,
+                        "friendlyName": "Recoger lo antes posible en Strada Medellín",
+                        "isPickupStore": true
+                    },
+                    "addressId": "201-3",
+                    "versionId": null,
+                    "entityId": null,
+                    "polygonName": "strada-201",
+                    "pickupPointId": "papajohnsstrada_201-3",
+                    "transitTime": "30m"
+                },
+                {
+                    "itemIndex": 1,
+                    "selectedSla": "Pedir y recoger Strada-201 (201-3)",
+                    "lockTTL": "6d",
+                    "price": 0,
+                    "listPrice": 0,
+                    "sellingPrice": 0,
+                    "deliveryWindow": null,
+                    "deliveryCompany": "201-3 Recogida en tienda",
+                    "shippingEstimate": "30m",
+                    "shippingEstimateDate": "2023-12-12T04:23:29.0596858+00:00",
+                    "slas": [
+                        {
+                            "id": "Pedir y recoger Strada-201 (201-3)",
+                            "name": "Pedir y recoger Strada-201 (201-3)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "201-3",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "05001",
+                                    "city": "Medellín",
+                                    "state": "Antioquia",
+                                    "country": "COL",
+                                    "street": "Carrera 43A #1sur-124",
+                                    "number": "",
+                                    "neighborhood": "Strada",
+                                    "complement": "Tel: (601)7050505",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -75.57178,
+                                        6.20202
+                                    ]
+                                },
+                                "dockId": null,
+                                "friendlyName": "Recoger lo antes posible en Strada Medellín",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "strada-201",
+                            "lockTTL": "6d",
+                            "pickupPointId": "papajohnsstrada_201-3",
+                            "transitTime": "30m",
+                            "pickupDistance": 0.0
+                        },
+                        {
+                            "id": "Estoy en la tienda Strada-201 (201-5)",
+                            "name": "Estoy en la tienda Strada-201 (201-5)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "201-5",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "05001",
+                                    "city": "Medellín",
+                                    "state": "Antioquia",
+                                    "country": "COL",
+                                    "street": "Carrera 43A #1sur-124",
+                                    "number": "",
+                                    "neighborhood": "Strada",
+                                    "complement": "Tel: (601)7050505",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -75.57178,
+                                        6.20202
+                                    ]
+                                },
+                                "dockId": null,
+                                "friendlyName": "Estoy en la tienda Strada Medellín",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "strada-201",
+                            "lockTTL": "6d",
+                            "pickupPointId": "papajohnsstrada_201-5",
+                            "transitTime": "30m",
+                            "pickupDistance": 0.0
+                        }
+                    ],
+                    "shipsTo": [
+                        "COL"
+                    ],
+                    "deliveryIds": [
+                        {
+                            "courierId": "201-3",
+                            "courierName": "201-3 Recogida en tienda",
+                            "dockId": "201",
+                            "quantity": 1,
+                            "warehouseId": "201",
+                            "accountCarrierName": null,
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "deliveryChannels": [
+                        {
+                            "id": "pickup-in-point",
+                            "stockBalance": 0
+                        }
+                    ],
+                    "deliveryChannel": "pickup-in-point",
+                    "pickupStoreInfo": {
+                        "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                        "address": {
+                            "addressType": "pickup",
+                            "receiverName": null,
+                            "addressId": "201-3",
+                            "versionId": null,
+                            "entityId": null,
+                            "postalCode": "05001",
+                            "city": "Medellín",
+                            "state": "Antioquia",
+                            "country": "COL",
+                            "street": "Carrera 43A #1sur-124",
+                            "number": "",
+                            "neighborhood": "Strada",
+                            "complement": "Tel: (601)7050505",
+                            "reference": null,
+                            "geoCoordinates": [
+                                -75.57178,
+                                6.20202
+                            ]
+                        },
+                        "dockId": null,
+                        "friendlyName": "Recoger lo antes posible en Strada Medellín",
+                        "isPickupStore": true
+                    },
+                    "addressId": "201-3",
+                    "versionId": null,
+                    "entityId": null,
+                    "polygonName": "strada-201",
+                    "pickupPointId": "papajohnsstrada_201-3",
+                    "transitTime": "30m"
+                },
+                {
+                    "itemIndex": 2,
+                    "selectedSla": "Pedir y recoger Strada-201 (201-3)",
+                    "lockTTL": "6d",
+                    "price": 0,
+                    "listPrice": 0,
+                    "sellingPrice": 0,
+                    "deliveryWindow": null,
+                    "deliveryCompany": "201-3 Recogida en tienda",
+                    "shippingEstimate": "30m",
+                    "shippingEstimateDate": "2023-12-12T04:23:29.0596858+00:00",
+                    "slas": [
+                        {
+                            "id": "Pedir y recoger Strada-201 (201-3)",
+                            "name": "Pedir y recoger Strada-201 (201-3)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "201-3",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "05001",
+                                    "city": "Medellín",
+                                    "state": "Antioquia",
+                                    "country": "COL",
+                                    "street": "Carrera 43A #1sur-124",
+                                    "number": "",
+                                    "neighborhood": "Strada",
+                                    "complement": "Tel: (601)7050505",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -75.57178,
+                                        6.20202
+                                    ]
+                                },
+                                "dockId": null,
+                                "friendlyName": "Recoger lo antes posible en Strada Medellín",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "strada-201",
+                            "lockTTL": "6d",
+                            "pickupPointId": "papajohnsstrada_201-3",
+                            "transitTime": "30m",
+                            "pickupDistance": 0.0
+                        },
+                        {
+                            "id": "Estoy en la tienda Strada-201 (201-5)",
+                            "name": "Estoy en la tienda Strada-201 (201-5)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "201-5",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "05001",
+                                    "city": "Medellín",
+                                    "state": "Antioquia",
+                                    "country": "COL",
+                                    "street": "Carrera 43A #1sur-124",
+                                    "number": "",
+                                    "neighborhood": "Strada",
+                                    "complement": "Tel: (601)7050505",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -75.57178,
+                                        6.20202
+                                    ]
+                                },
+                                "dockId": null,
+                                "friendlyName": "Estoy en la tienda Strada Medellín",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "strada-201",
+                            "lockTTL": "6d",
+                            "pickupPointId": "papajohnsstrada_201-5",
+                            "transitTime": "30m",
+                            "pickupDistance": 0.0
+                        }
+                    ],
+                    "shipsTo": [
+                        "COL"
+                    ],
+                    "deliveryIds": [
+                        {
+                            "courierId": "201-3",
+                            "courierName": "201-3 Recogida en tienda",
+                            "dockId": "201",
+                            "quantity": 1,
+                            "warehouseId": "201",
+                            "accountCarrierName": null,
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "deliveryChannels": [
+                        {
+                            "id": "pickup-in-point",
+                            "stockBalance": 0
+                        }
+                    ],
+                    "deliveryChannel": "pickup-in-point",
+                    "pickupStoreInfo": {
+                        "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                        "address": {
+                            "addressType": "pickup",
+                            "receiverName": null,
+                            "addressId": "201-3",
+                            "versionId": null,
+                            "entityId": null,
+                            "postalCode": "05001",
+                            "city": "Medellín",
+                            "state": "Antioquia",
+                            "country": "COL",
+                            "street": "Carrera 43A #1sur-124",
+                            "number": "",
+                            "neighborhood": "Strada",
+                            "complement": "Tel: (601)7050505",
+                            "reference": null,
+                            "geoCoordinates": [
+                                -75.57178,
+                                6.20202
+                            ]
+                        },
+                        "dockId": null,
+                        "friendlyName": "Recoger lo antes posible en Strada Medellín",
+                        "isPickupStore": true
+                    },
+                    "addressId": "201-3",
+                    "versionId": null,
+                    "entityId": null,
+                    "polygonName": "strada-201",
+                    "pickupPointId": "papajohnsstrada_201-3",
+                    "transitTime": "30m"
+                },
+                {
+                    "itemIndex": 3,
+                    "selectedSla": "Pedir y recoger Strada-201 (201-3)",
+                    "lockTTL": "6d",
+                    "price": 0,
+                    "listPrice": 0,
+                    "sellingPrice": 0,
+                    "deliveryWindow": null,
+                    "deliveryCompany": "201-3 Recogida en tienda",
+                    "shippingEstimate": "30m",
+                    "shippingEstimateDate": "2023-12-12T04:23:29.0596858+00:00",
+                    "slas": [
+                        {
+                            "id": "Pedir y recoger Strada-201 (201-3)",
+                            "name": "Pedir y recoger Strada-201 (201-3)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "201-3",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "05001",
+                                    "city": "Medellín",
+                                    "state": "Antioquia",
+                                    "country": "COL",
+                                    "street": "Carrera 43A #1sur-124",
+                                    "number": "",
+                                    "neighborhood": "Strada",
+                                    "complement": "Tel: (601)7050505",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -75.57178,
+                                        6.20202
+                                    ]
+                                },
+                                "dockId": null,
+                                "friendlyName": "Recoger lo antes posible en Strada Medellín",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "strada-201",
+                            "lockTTL": "6d",
+                            "pickupPointId": "papajohnsstrada_201-3",
+                            "transitTime": "30m",
+                            "pickupDistance": 0.0
+                        },
+                        {
+                            "id": "Estoy en la tienda Strada-201 (201-5)",
+                            "name": "Estoy en la tienda Strada-201 (201-5)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "201-5",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "05001",
+                                    "city": "Medellín",
+                                    "state": "Antioquia",
+                                    "country": "COL",
+                                    "street": "Carrera 43A #1sur-124",
+                                    "number": "",
+                                    "neighborhood": "Strada",
+                                    "complement": "Tel: (601)7050505",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -75.57178,
+                                        6.20202
+                                    ]
+                                },
+                                "dockId": null,
+                                "friendlyName": "Estoy en la tienda Strada Medellín",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "strada-201",
+                            "lockTTL": "6d",
+                            "pickupPointId": "papajohnsstrada_201-5",
+                            "transitTime": "30m",
+                            "pickupDistance": 0.0
+                        }
+                    ],
+                    "shipsTo": [
+                        "COL"
+                    ],
+                    "deliveryIds": [
+                        {
+                            "courierId": "201-3",
+                            "courierName": "201-3 Recogida en tienda",
+                            "dockId": "201",
+                            "quantity": 1,
+                            "warehouseId": "201",
+                            "accountCarrierName": null,
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "deliveryChannels": [
+                        {
+                            "id": "pickup-in-point",
+                            "stockBalance": 0
+                        }
+                    ],
+                    "deliveryChannel": "pickup-in-point",
+                    "pickupStoreInfo": {
+                        "additionalInfo": "Papa John´s Strada\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nVisítanos y vive una de las mejores experiencias",
+                        "address": {
+                            "addressType": "pickup",
+                            "receiverName": null,
+                            "addressId": "201-3",
+                            "versionId": null,
+                            "entityId": null,
+                            "postalCode": "05001",
+                            "city": "Medellín",
+                            "state": "Antioquia",
+                            "country": "COL",
+                            "street": "Carrera 43A #1sur-124",
+                            "number": "",
+                            "neighborhood": "Strada",
+                            "complement": "Tel: (601)7050505",
+                            "reference": null,
+                            "geoCoordinates": [
+                                -75.57178,
+                                6.20202
+                            ]
+                        },
+                        "dockId": null,
+                        "friendlyName": "Recoger lo antes posible en Strada Medellín",
+                        "isPickupStore": true
+                    },
+                    "addressId": "201-3",
+                    "versionId": null,
+                    "entityId": null,
+                    "polygonName": "strada-201",
+                    "pickupPointId": "papajohnsstrada_201-3",
+                    "transitTime": "30m"
+                }
+            ],
+            "trackingHints": null,
+            "selectedAddresses": [
+                {
+                    "addressId": "201-3",
+                    "versionId": null,
+                    "entityId": null,
+                    "addressType": "pickup",
+                    "receiverName": "Antonio Posada",
+                    "street": "Carrera 43A #1sur-124",
+                    "number": "",
+                    "complement": "Tel: (601)7050505",
+                    "neighborhood": "Strada",
+                    "postalCode": "05001",
+                    "city": "Medellín",
+                    "state": "Antioquia",
+                    "country": "COL",
+                    "reference": null,
+                    "geoCoordinates": [
+                        -75.57178,
+                        6.20202
+                    ]
+                }
+            ]
+        },
+        "paymentData": {
+            "giftCards": [],
+            "transactions": [
+                {
+                    "isActive": true,
+                    "transactionId": "69AE119CEAF54C7DA19F80C977AD2E44",
+                    "merchantName": "PAPAJOHNSSTRADA",
+                    "payments": [
+                        {
+                            "id": "21E4024AE14C484887561349EA2CDD3F",
+                            "paymentSystem": "202",
+                            "paymentSystemName": "Credibanco",
+                            "value": 3490000,
+                            "installments": 1,
+                            "referenceValue": 3490000,
+                            "cardHolder": null,
+                            "cardNumber": null,
+                            "firstDigits": null,
+                            "lastDigits": null,
+                            "cvv2": null,
+                            "expireMonth": null,
+                            "expireYear": null,
+                            "url": null,
+                            "giftCardId": null,
+                            "giftCardName": null,
+                            "giftCardCaption": null,
+                            "redemptionCode": null,
+                            "group": "promissory",
+                            "tid": "1702353121322",
+                            "dueDate": null,
+                            "connectorResponses": {
+                                "Tid": "1702353121322",
+                                "ReturnCode": null,
+                                "Message": null,
+                                "authId": "1702353121322",
+                                "nsu": "1702353121322"
+                            },
+                            "giftCardProvider": null,
+                            "giftCardAsDiscount": null,
+                            "koinUrl": null,
+                            "accountId": null,
+                            "parentAccountId": null,
+                            "bankIssuedInvoiceIdentificationNumber": null,
+                            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                            "bankIssuedInvoiceBarCodeNumber": null,
+                            "bankIssuedInvoiceBarCodeType": null,
+                            "billingAddress": null,
+                            "paymentOrigin": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "packageAttachment": {
+            "packages": [
+                {
+                    "items": [
+                        {
+                            "itemIndex": 0,
+                            "quantity": 1,
+                            "price": 2932773,
+                            "description": null,
+                            "unitMultiplier": 0.0
+                        },
+                        {
+                            "itemIndex": 1,
+                            "quantity": 1,
+                            "price": 0,
+                            "description": null,
+                            "unitMultiplier": 0.0
+                        },
+                        {
+                            "itemIndex": 2,
+                            "quantity": 1,
+                            "price": 0,
+                            "description": null,
+                            "unitMultiplier": 0.0
+                        },
+                        {
+                            "itemIndex": 3,
+                            "quantity": 1,
+                            "price": 0,
+                            "description": null,
+                            "unitMultiplier": 0.0
+                        }
+                    ],
+                    "courier": null,
+                    "invoiceNumber": "10176030235096076950",
+                    "invoiceValue": 3490000,
+                    "invoiceUrl": null,
+                    "issuanceDate": "2023-12-12T00:00:00.0000000+00:00",
+                    "trackingNumber": null,
+                    "invoiceKey": null,
+                    "trackingUrl": null,
+                    "embeddedInvoice": "",
+                    "type": "Output",
+                    "courierStatus": null,
+                    "cfop": null,
+                    "restitutions": {},
+                    "volumes": null,
+                    "EnableInferItems": null
+                }
+            ]
+        },
+        "sellers": [
+            {
+                "id": "papajohnsstrada",
+                "name": "papajohnsstrada",
+                "logo": "",
+                "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=papajohnsstrada&affiliateId=STR&sc=1"
+            }
+        ],
+        "callCenterOperatorData": null,
+        "followUpEmail": "baf93eb1366e452b98a78a9dca137760@ct.vtex.com.br",
+        "lastMessage": null,
+        "hostname": "papajohns",
+        "invoiceData": null,
+        "changesAttachment": null,
+        "openTextField": null,
+        "roundingError": 0,
+        "orderFormId": "c4e53dbeb95b4590b9376dfd10db507e",
+        "commercialConditionData": null,
+        "isCompleted": true,
+        "customData": null,
+        "storePreferencesData": {
+            "countryCode": "COL",
+            "currencyCode": "COP",
+            "currencyFormatInfo": {
+                "CurrencyDecimalDigits": 0,
+                "CurrencyDecimalSeparator": ",",
+                "CurrencyGroupSeparator": ".",
+                "CurrencyGroupSize": 3,
+                "StartsWithCurrencySymbol": true
+            },
+            "currencyLocale": 9226,
+            "currencySymbol": "$",
+            "timeZone": "SA Pacific Standard Time"
+        },
+        "allowCancellation": false,
+        "allowEdition": false,
+        "isCheckedIn": false,
+        "marketplace": null,
+        "authorizedDate": "2023-12-12T03:53:25.0000000+00:00",
+        "invoicedDate": "2023-12-12T03:54:45.1972690+00:00",
+        "itemMetadata": null,
+        "subscriptionData": null,
+        "taxData": null,
+        "checkedInPickupPointId": null,
+        "cancellationData": null,
+        "clientPreferencesData": null
+    },
+    {
+        "emailTracked": "ae20949e6e44493f9b4d693f5b3fec02@ct.vtex.com.br",
+        "approvedBy": null,
+        "cancelledBy": null,
+        "cancelReason": null,
+        "handlingData": null,
+        "orderId": "1254030916485-01",
+        "sequence": "510605",
+        "marketplaceOrderId": "",
+        "marketplaceServicesEndpoint": "http://oms.vtexinternal.com.br/api/oms?an=papajohns",
+        "sellerOrderId": "00-1254030916485-01",
+        "origin": "Marketplace",
+        "affiliateId": "",
+        "salesChannel": "1",
+        "merchantName": null,
+        "status": "handling",
+        "workflowIsInError": false,
+        "statusDescription": "Preparando Entrega",
+        "value": 8440017,
+        "creationDate": "2022-08-14T03:15:15.9534464+00:00",
+        "lastChange": "2022-08-14T03:15:36.2655707+00:00",
+        "orderGroup": null,
+        "totals": [
+            {
+                "id": "Items",
+                "name": "Total de los items",
+                "value": 6714300
+            },
+            {
+                "id": "Discounts",
+                "name": "Total de descuentos",
+                "value": 0
+            },
+            {
+                "id": "Shipping",
+                "name": "Costo total del envío",
+                "value": 378151
+            },
+            {
+                "id": "Tax",
+                "name": "Costo total del cambio",
+                "value": 1347566
+            }
+        ],
+        "items": [
+            {
+                "uniqueId": "8BECD78042D546AC98CD2604BBFBA443",
+                "id": "930",
+                "productId": "117",
+                "ean": "type:0;size:315;mass:0;edge:0;sauce:0",
+                "lockId": "00-1254030916485-01",
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "1",
+                "name": "Combo Goleador Mediana Masa-tradicional Borde-tradicional",
+                "refId": "0;315;0;0;0;C15",
+                "price": 6714300,
+                "listPrice": 6714300,
+                "manualPrice": null,
+                "priceTags": [
+                    {
+                        "name": "tax@price-51aeb7f1-d104-4e04-9985-7683edc9c354#82868460-1c41-4128-9cdd-3ce636452c86",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": "51aeb7f1-d104-4e04-9985-7683edc9c354",
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    },
+                    {
+                        "name": "tax@shipping-ae6398ee-72c7-473b-a784-cac8ae713ab8#a30a7b58-2767-442d-b6b1-d15ebede9264",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": "ae6398ee-72c7-473b-a784-cac8ae713ab8",
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    }
+                ],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156976-55-55/PJ-Combo-Goleador.jpg?v=637890266460830000",
+                "detailUrl": "/combo-goleador-117/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "930",
+                "priceValidUntil": null,
+                "commission": 0,
+                "tax": 1275717,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/1/20/",
+                    "categories": [
+                        {
+                            "id": 20,
+                            "name": "Promociones"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Pizzas"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 1.0000,
+                        "height": 1.0000,
+                        "length": 1.0000,
+                        "weight": 1.0000,
+                        "width": 1.0000
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0000,
+                "sellingPrice": 6714300,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 6714300,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 6714300,
+                    "total": 6714300
+                },
+                "taxCode": "",
+                "parentItemIndex": null,
+                "parentAssemblyBinding": null,
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": 6714300
+            },
+            {
+                "uniqueId": "D450E40696A14098BBD30C3A4FEE6F3A",
+                "id": "624",
+                "productId": "76",
+                "ean": "47-Base",
+                "lockId": "00-1254030916485-01",
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "1",
+                "name": "Ingredientes Base Pimienta roja sobre",
+                "refId": "47",
+                "price": 0,
+                "listPrice": 0,
+                "manualPrice": null,
+                "priceTags": [
+                    {
+                        "name": "tax@shipping-ae6398ee-72c7-473b-a784-cac8ae713ab8#a30a7b58-2767-442d-b6b1-d15ebede9264",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": "ae6398ee-72c7-473b-a784-cac8ae713ab8",
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    }
+                ],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156545-55-55/Pimienta-Roja.jpg?v=637745046141270000",
+                "detailUrl": "/ingredientes-base-76/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "624",
+                "priceValidUntil": null,
+                "commission": 0,
+                "tax": 0,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/13/19/",
+                    "categories": [
+                        {
+                            "id": 19,
+                            "name": "Ingredientes Base"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Modificadores"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 0.0002,
+                        "height": 1.0000,
+                        "length": 1.0000,
+                        "weight": 1.0000,
+                        "width": 1.0000
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0000,
+                "sellingPrice": 0,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 0,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 0,
+                    "total": 0
+                },
+                "taxCode": null,
+                "parentItemIndex": "0",
+                "parentAssemblyBinding": "sazonadores_Puedes retirar tus sazonadores",
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": 0
+            },
+            {
+                "uniqueId": "64F0ADAD035049F28CB2E2E60F9324C7",
+                "id": "625",
+                "productId": "76",
+                "ean": "46-Base",
+                "lockId": "00-1254030916485-01",
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "1",
+                "name": "Ingredientes Base Sazonador especial sobre",
+                "refId": "46",
+                "price": 0,
+                "listPrice": 0,
+                "manualPrice": null,
+                "priceTags": [
+                    {
+                        "name": "tax@shipping-ae6398ee-72c7-473b-a784-cac8ae713ab8#a30a7b58-2767-442d-b6b1-d15ebede9264",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": "ae6398ee-72c7-473b-a784-cac8ae713ab8",
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    }
+                ],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156546-55-55/Sazonador-Italiano.jpg?v=637745046925230000",
+                "detailUrl": "/ingredientes-base-76/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "625",
+                "priceValidUntil": null,
+                "commission": 0,
+                "tax": 0,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/13/19/",
+                    "categories": [
+                        {
+                            "id": 19,
+                            "name": "Ingredientes Base"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Modificadores"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 0.0002,
+                        "height": 1.0000,
+                        "length": 1.0000,
+                        "weight": 1.0000,
+                        "width": 1.0000
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0000,
+                "sellingPrice": 0,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 0,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 0,
+                    "total": 0
+                },
+                "taxCode": null,
+                "parentItemIndex": "0",
+                "parentAssemblyBinding": "sazonadores_Puedes retirar tus sazonadores",
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": 0
+            }
+        ],
+        "marketplaceItems": [],
+        "clientProfileData": {
+            "id": "clientProfileData",
+            "email": "camilaospina117@gmail.com",
+            "firstName": "Camila",
+            "lastName": "Ospina",
+            "documentType": "cedulaCOL",
+            "document": "1193067836",
+            "phone": "+573204819257",
+            "corporateName": null,
+            "tradeName": null,
+            "corporateDocument": null,
+            "stateInscription": null,
+            "corporatePhone": null,
+            "isCorporate": false,
+            "userProfileId": "933ac1be-a19e-4451-aed9-fc86b31e12b0",
+            "userProfileVersion": null,
+            "customerClass": null
+        },
+        "giftRegistryData": null,
+        "marketingData": null,
+        "ratesAndBenefitsData": {
+            "id": "ratesAndBenefitsData",
+            "rateAndBenefitsIdentifiers": [
+                {
+                    "description": "IVA Productos",
+                    "featured": false,
+                    "id": "51aeb7f1-d104-4e04-9985-7683edc9c354",
+                    "name": "IVA Productos",
+                    "matchedParameters": {},
+                    "additionalInfo": null
+                },
+                {
+                    "description": "IVA Flete",
+                    "featured": false,
+                    "id": "ae6398ee-72c7-473b-a784-cac8ae713ab8",
+                    "name": "IVA Flete",
+                    "matchedParameters": {
+                        "slaIds": "domicilio lo antes posible"
+                    },
+                    "additionalInfo": null
+                }
+            ]
+        },
+        "shippingData": {
+            "id": "shippingData",
+            "address": {
+                "addressType": "residential",
+                "receiverName": "Camila Ospina",
+                "addressId": "8302209891205",
+                "versionId": null,
+                "entityId": null,
+                "postalCode": "11001",
+                "city": "Bogotá, D.c.",
+                "state": "BOGOTÁ, D.C.",
+                "country": "COL",
+                "street": "Cra. 7a #151-22",
+                "number": "151-22",
+                "neighborhood": "Kalima",
+                "complement": "Bloque C Apto 302",
+                "reference": null,
+                "geoCoordinates": [
+                    -74.0257527,
+                    4.7256326999999994
+                ]
+            },
+            "logisticsInfo": [
+                {
+                    "itemIndex": 0,
+                    "selectedSla": "Domicilio Lo antes posible",
+                    "lockTTL": "10d",
+                    "price": 126051,
+                    "listPrice": 126051,
+                    "sellingPrice": 126051,
+                    "deliveryWindow": null,
+                    "deliveryCompany": "Envío a domicilio",
+                    "shippingEstimate": "60m",
+                    "shippingEstimateDate": "2022-08-14T04:15:21.7522456+00:00",
+                    "slas": [
+                        {
+                            "id": "Domicilio Lo antes posible",
+                            "name": "Domicilio Lo antes posible",
+                            "shippingEstimate": "60m",
+                            "deliveryWindow": null,
+                            "price": 126051,
+                            "deliveryChannel": "delivery",
+                            "pickupStoreInfo": {
+                                "additionalInfo": null,
+                                "address": null,
+                                "dockId": null,
+                                "friendlyName": null,
+                                "isPickupStore": false
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": null,
+                            "transitTime": "60m",
+                            "pickupDistance": 0.0
+                        },
+                        {
+                            "id": "Estoy en la tienda (2)",
+                            "name": "Estoy en la tienda (2)",
+                            "shippingEstimate": "20m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nRealiza tu pedido desde el punto de venta Cedritos Bogotá",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "2",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "110121",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Cundinamarca",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": null,
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Estoy en la tienda Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_2",
+                            "transitTime": "20m",
+                            "pickupDistance": 1.712216854095459
+                        },
+                        {
+                            "id": "Pedir y Recoger - Hora programada (3)",
+                            "name": "Pedir y Recoger - Hora programada (3)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nVisítanos y vive una de las mejores experiencias\n",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "3",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "110121",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Cundinamarca",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": null,
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Recoger - Hora programada en Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_3",
+                            "transitTime": "30m",
+                            "pickupDistance": 1.712216854095459
+                        },
+                        {
+                            "id": "Pedir y Recoger (1)",
+                            "name": "Pedir y Recoger (1)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nVisítanos y vive una de las mejores experiencias\n",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "1",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "11001",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Bogotá, D.C.",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": "",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Recoger lo antes posible en Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_1",
+                            "transitTime": "30m",
+                            "pickupDistance": 1.712216854095459
+                        }
+                    ],
+                    "shipsTo": [
+                        "COL"
+                    ],
+                    "deliveryIds": [
+                        {
+                            "courierId": "13",
+                            "courierName": "Envío a domicilio",
+                            "dockId": "1",
+                            "quantity": 1,
+                            "warehouseId": "1",
+                            "accountCarrierName": "papajohns",
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "deliveryChannels": [
+                        {
+                            "id": "delivery",
+                            "stockBalance": 0
+                        },
+                        {
+                            "id": "pickup-in-point",
+                            "stockBalance": 0
+                        }
+                    ],
+                    "deliveryChannel": "delivery",
+                    "pickupStoreInfo": {
+                        "additionalInfo": null,
+                        "address": null,
+                        "dockId": null,
+                        "friendlyName": null,
+                        "isPickupStore": false
+                    },
+                    "addressId": "8302209891205",
+                    "versionId": null,
+                    "entityId": null,
+                    "polygonName": "cedritos",
+                    "pickupPointId": null,
+                    "transitTime": "60m"
+                },
+                {
+                    "itemIndex": 1,
+                    "selectedSla": "Domicilio Lo antes posible",
+                    "lockTTL": "10d",
+                    "price": 126050,
+                    "listPrice": 126050,
+                    "sellingPrice": 126050,
+                    "deliveryWindow": null,
+                    "deliveryCompany": "Envío a domicilio",
+                    "shippingEstimate": "60m",
+                    "shippingEstimateDate": "2022-08-14T04:15:21.7522456+00:00",
+                    "slas": [
+                        {
+                            "id": "Domicilio Lo antes posible",
+                            "name": "Domicilio Lo antes posible",
+                            "shippingEstimate": "60m",
+                            "deliveryWindow": null,
+                            "price": 126050,
+                            "deliveryChannel": "delivery",
+                            "pickupStoreInfo": {
+                                "additionalInfo": null,
+                                "address": null,
+                                "dockId": null,
+                                "friendlyName": null,
+                                "isPickupStore": false
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": null,
+                            "transitTime": "60m",
+                            "pickupDistance": 0.0
+                        },
+                        {
+                            "id": "Estoy en la tienda (2)",
+                            "name": "Estoy en la tienda (2)",
+                            "shippingEstimate": "20m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nRealiza tu pedido desde el punto de venta Cedritos Bogotá",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "2",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "110121",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Cundinamarca",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": null,
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Estoy en la tienda Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_2",
+                            "transitTime": "20m",
+                            "pickupDistance": 1.712216854095459
+                        },
+                        {
+                            "id": "Pedir y Recoger - Hora programada (3)",
+                            "name": "Pedir y Recoger - Hora programada (3)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nVisítanos y vive una de las mejores experiencias\n",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "3",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "110121",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Cundinamarca",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": null,
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Recoger - Hora programada en Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_3",
+                            "transitTime": "30m",
+                            "pickupDistance": 1.712216854095459
+                        },
+                        {
+                            "id": "Pedir y Recoger (1)",
+                            "name": "Pedir y Recoger (1)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nVisítanos y vive una de las mejores experiencias\n",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "1",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "11001",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Bogotá, D.C.",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": "",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Recoger lo antes posible en Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_1",
+                            "transitTime": "30m",
+                            "pickupDistance": 1.712216854095459
+                        }
+                    ],
+                    "shipsTo": [
+                        "COL"
+                    ],
+                    "deliveryIds": [
+                        {
+                            "courierId": "13",
+                            "courierName": "Envío a domicilio",
+                            "dockId": "1",
+                            "quantity": 1,
+                            "warehouseId": "1",
+                            "accountCarrierName": "papajohns",
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "deliveryChannels": [
+                        {
+                            "id": "delivery",
+                            "stockBalance": 0
+                        },
+                        {
+                            "id": "pickup-in-point",
+                            "stockBalance": 0
+                        }
+                    ],
+                    "deliveryChannel": "delivery",
+                    "pickupStoreInfo": {
+                        "additionalInfo": null,
+                        "address": null,
+                        "dockId": null,
+                        "friendlyName": null,
+                        "isPickupStore": false
+                    },
+                    "addressId": "8302209891205",
+                    "versionId": null,
+                    "entityId": null,
+                    "polygonName": "cedritos",
+                    "pickupPointId": null,
+                    "transitTime": "60m"
+                },
+                {
+                    "itemIndex": 2,
+                    "selectedSla": "Domicilio Lo antes posible",
+                    "lockTTL": "10d",
+                    "price": 126050,
+                    "listPrice": 126050,
+                    "sellingPrice": 126050,
+                    "deliveryWindow": null,
+                    "deliveryCompany": "Envío a domicilio",
+                    "shippingEstimate": "60m",
+                    "shippingEstimateDate": "2022-08-14T04:15:21.7522456+00:00",
+                    "slas": [
+                        {
+                            "id": "Domicilio Lo antes posible",
+                            "name": "Domicilio Lo antes posible",
+                            "shippingEstimate": "60m",
+                            "deliveryWindow": null,
+                            "price": 126050,
+                            "deliveryChannel": "delivery",
+                            "pickupStoreInfo": {
+                                "additionalInfo": null,
+                                "address": null,
+                                "dockId": null,
+                                "friendlyName": null,
+                                "isPickupStore": false
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": null,
+                            "transitTime": "60m",
+                            "pickupDistance": 0.0
+                        },
+                        {
+                            "id": "Estoy en la tienda (2)",
+                            "name": "Estoy en la tienda (2)",
+                            "shippingEstimate": "20m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nRealiza tu pedido desde el punto de venta Cedritos Bogotá",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "2",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "110121",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Cundinamarca",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": null,
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Estoy en la tienda Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_2",
+                            "transitTime": "20m",
+                            "pickupDistance": 1.712216854095459
+                        },
+                        {
+                            "id": "Pedir y Recoger - Hora programada (3)",
+                            "name": "Pedir y Recoger - Hora programada (3)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nVisítanos y vive una de las mejores experiencias\n",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "3",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "110121",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Cundinamarca",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": null,
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Recoger - Hora programada en Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_3",
+                            "transitTime": "30m",
+                            "pickupDistance": 1.712216854095459
+                        },
+                        {
+                            "id": "Pedir y Recoger (1)",
+                            "name": "Pedir y Recoger (1)",
+                            "shippingEstimate": "30m",
+                            "deliveryWindow": null,
+                            "price": 0,
+                            "deliveryChannel": "pickup-in-point",
+                            "pickupStoreInfo": {
+                                "additionalInfo": "Papa John´s Cedritos\n\nInstrucciones de retiro:\n\nIndicar el numero de pedido.\n\nHorarios de atención:\n\nDe lunes a Domingo de 11:00 am a 11:00 pm\n\nVisítanos y vive una de las mejores experiencias\n",
+                                "address": {
+                                    "addressType": "pickup",
+                                    "receiverName": null,
+                                    "addressId": "1",
+                                    "versionId": null,
+                                    "entityId": null,
+                                    "postalCode": "11001",
+                                    "city": "Bogotá, D.c.",
+                                    "state": "Bogotá, D.C.",
+                                    "country": "COL",
+                                    "street": "Ak. 15 #146-60",
+                                    "number": "146-60",
+                                    "neighborhood": "Cedritos",
+                                    "complement": "",
+                                    "reference": null,
+                                    "geoCoordinates": [
+                                        -74.04087,
+                                        4.728815
+                                    ]
+                                },
+                                "dockId": "1",
+                                "friendlyName": "Recoger lo antes posible en Cedritos-Bogota",
+                                "isPickupStore": true
+                            },
+                            "polygonName": "cedritos",
+                            "lockTTL": "10d",
+                            "pickupPointId": "1_1",
+                            "transitTime": "30m",
+                            "pickupDistance": 1.712216854095459
+                        }
+                    ],
+                    "shipsTo": [
+                        "COL"
+                    ],
+                    "deliveryIds": [
+                        {
+                            "courierId": "13",
+                            "courierName": "Envío a domicilio",
+                            "dockId": "1",
+                            "quantity": 1,
+                            "warehouseId": "1",
+                            "accountCarrierName": "papajohns",
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "deliveryChannels": [
+                        {
+                            "id": "delivery",
+                            "stockBalance": 0
+                        },
+                        {
+                            "id": "pickup-in-point",
+                            "stockBalance": 0
+                        }
+                    ],
+                    "deliveryChannel": "delivery",
+                    "pickupStoreInfo": {
+                        "additionalInfo": null,
+                        "address": null,
+                        "dockId": null,
+                        "friendlyName": null,
+                        "isPickupStore": false
+                    },
+                    "addressId": "8302209891205",
+                    "versionId": null,
+                    "entityId": null,
+                    "polygonName": "cedritos",
+                    "pickupPointId": null,
+                    "transitTime": "60m"
+                }
+            ],
+            "trackingHints": null,
+            "selectedAddresses": [
+                {
+                    "addressId": "8302209891205",
+                    "versionId": null,
+                    "entityId": null,
+                    "addressType": "residential",
+                    "receiverName": "Camila Ospina",
+                    "street": "Cra. 7a #151-22",
+                    "number": "151-22",
+                    "complement": "Bloque C Apto 302",
+                    "neighborhood": "Kalima",
+                    "postalCode": "11001",
+                    "city": "Bogotá, D.c.",
+                    "state": "BOGOTÁ, D.C.",
+                    "country": "COL",
+                    "reference": null,
+                    "geoCoordinates": [
+                        -74.0257527,
+                        4.7256326999999994
+                    ]
+                }
+            ]
+        },
+        "paymentData": {
+            "giftCards": [],
+            "transactions": [
+                {
+                    "isActive": true,
+                    "transactionId": "22CF5F7FE8B3410BAEB496E1A6A51795",
+                    "merchantName": "PAPAJOHNS",
+                    "payments": [
+                        {
+                            "id": "C7824ABEB81C4DF483A6EB75924BD6B7",
+                            "paymentSystem": "201",
+                            "paymentSystemName": "Pago contra entrega",
+                            "value": 8440017,
+                            "installments": 1,
+                            "referenceValue": 8440017,
+                            "cardHolder": null,
+                            "cardNumber": null,
+                            "firstDigits": null,
+                            "lastDigits": null,
+                            "cvv2": null,
+                            "expireMonth": null,
+                            "expireYear": null,
+                            "url": null,
+                            "giftCardId": null,
+                            "giftCardName": null,
+                            "giftCardCaption": null,
+                            "redemptionCode": null,
+                            "group": "promissory",
+                            "tid": null,
+                            "dueDate": null,
+                            "connectorResponses": {},
+                            "giftCardProvider": null,
+                            "giftCardAsDiscount": null,
+                            "koinUrl": null,
+                            "accountId": null,
+                            "parentAccountId": null,
+                            "bankIssuedInvoiceIdentificationNumber": null,
+                            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                            "bankIssuedInvoiceBarCodeNumber": null,
+                            "bankIssuedInvoiceBarCodeType": null,
+                            "billingAddress": null,
+                            "paymentOrigin": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "packageAttachment": {
+            "packages": []
+        },
+        "sellers": [
+            {
+                "id": "1",
+                "name": "PJ COL S.A.S",
+                "logo": "",
+                "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=papajohns"
+            }
+        ],
+        "callCenterOperatorData": null,
+        "followUpEmail": "609d811497ef48d795774fd4eb998b72@ct.vtex.com.br",
+        "lastMessage": null,
+        "hostname": "papajohns",
+        "invoiceData": null,
+        "changesAttachment": null,
+        "openTextField": null,
+        "roundingError": 0,
+        "orderFormId": "90bec482f1f74e7db03d7477827d55d1",
+        "commercialConditionData": null,
+        "isCompleted": true,
+        "customData": null,
+        "storePreferencesData": {
+            "countryCode": "COL",
+            "currencyCode": "COP",
+            "currencyFormatInfo": {
+                "CurrencyDecimalDigits": 0,
+                "CurrencyDecimalSeparator": ",",
+                "CurrencyGroupSeparator": ".",
+                "CurrencyGroupSize": 3,
+                "StartsWithCurrencySymbol": true
+            },
+            "currencyLocale": 9226,
+            "currencySymbol": "$",
+            "timeZone": "SA Pacific Standard Time"
+        },
+        "allowCancellation": false,
+        "allowEdition": false,
+        "isCheckedIn": false,
+        "marketplace": {
+            "baseURL": "http://oms.vtexinternal.com.br/api/oms?an=papajohns",
+            "isCertified": null,
+            "name": "papajohns"
+        },
+        "authorizedDate": "2022-08-14T03:15:20.9026980+00:00",
+        "invoicedDate": null,
+        "itemMetadata": null,
+        "subscriptionData": null,
+        "taxData": null,
+        "checkedInPickupPointId": null,
+        "cancellationData": null,
+        "clientPreferencesData": null
+    }
+]
