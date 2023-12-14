@@ -8,14 +8,13 @@ export async function integrateOrder(ctx: Context, next: () => Promise<any>) {
     clients: { oms },
   } = ctx
 
-  const body = await json(ctx.req)
-
   try {
     const body = await json(ctx.req)
     const order = await oms.order(body.OrderId)
-    const sapRequest = sapRequestConstructor(order, 1, 2)
 
-    const order = await oms.order(body.OrderId)
+    if (!order) {
+      throw new Error('invalid order')
+    }
 
     const sapRequest = sapRequestConstructor(order, 1, 2)
 
@@ -29,6 +28,13 @@ export async function integrateOrder(ctx: Context, next: () => Promise<any>) {
         ctx.status = 400
         ctx.body = {
           message: 'invalid shipping date',
+        }
+        break
+
+      case 'invalid order':
+        ctx.status = 404
+        ctx.body = {
+          message: 'order not found',
         }
         break
 
