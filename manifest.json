@@ -1,9 +1,9 @@
 {
-  "name": "service-example",
-  "vendor": "vtex",
-  "version": "0.2.22",
-  "title": "Service Example",
-  "description": "Reference app for VTEX IO Services",
+  "name": "test-survei",
+  "vendor": "experimentality",
+  "version": "0.0.1",
+  "title": "test survei",
+  "description": "test survei on vtex io node apps",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "dependencies": {},
@@ -24,10 +24,40 @@
       }
     },
     {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{workspace}}--{{account}}.myvtex.com",
+        "path": "*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "*"
+      }
+    },
+    {
       "name": "colossus-fire-event"
     },
     {
       "name": "colossus-write-logs"
+    },
+    {
+      "name": "OMSViewer"
+    },
+    {
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "vbase-read-write"
     }
   ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

@@ -1,10 +1,12 @@
 /* eslint-disable no-console */
 import { json } from 'co-body'
 
-import type { Order } from '../types/orders'
 import { sapRequestConstructor } from '../helpers/sapRequestConstructor'
 
 export async function integrateOrder(ctx: Context, next: () => Promise<any>) {
+  const {
+    clients: { oms },
+  } = ctx
 
 
   try {
