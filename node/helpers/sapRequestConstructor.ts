@@ -21,7 +21,7 @@ export function sapRequestConstructor(
       .split('-')
       .join('')
   } catch (error) {
-    throw new Error('invalidDate')
+        throw new Error('invalidDate')
   }
 
   const totalAddOns = calculateValuePerCategory(addOnsCategory, orderData.items)
