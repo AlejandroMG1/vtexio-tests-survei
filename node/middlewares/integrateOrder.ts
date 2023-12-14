@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { json } from 'co-body'
 
 import { sapRequestConstructor } from '../helpers/sapRequestConstructor'
@@ -10,7 +11,12 @@ export async function integrateOrder(ctx: Context, next: () => Promise<any>) {
   const body = await json(ctx.req)
 
   try {
+    const body = await json(ctx.req)
     const order = await oms.order(body.OrderId)
+    const sapRequest = sapRequestConstructor(order, 1, 2)
+
+    const order = await oms.order(body.OrderId)
+
     const sapRequest = sapRequestConstructor(order, 1, 2)
 
     ctx.status = 200
@@ -27,6 +33,8 @@ export async function integrateOrder(ctx: Context, next: () => Promise<any>) {
         break
 
       default:
+        console.log('error', error)
+
         ctx.status = 500
         ctx.body = error?.data || error || { message: 'internal error' }
         break
