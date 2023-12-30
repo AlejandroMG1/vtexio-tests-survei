@@ -1,7 +1,7 @@
 import type { OrderDetailResponse } from '@vtex/clients'
 
 import { calculateValuePerCategory } from '../helpers/calculateCategoryValue'
-import orders from './prebuildMoks/orders.json'
+import orders from '../test_tools/prebuildMoks/orders.json'
 
 describe('calculateCategoryValueFunctionality', () => {
   it('non existing category should be 0', async () => {

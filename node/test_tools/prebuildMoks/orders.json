@@ -2294,5 +2294,538 @@
         "checkedInPickupPointId": null,
         "cancellationData": null,
         "clientPreferencesData": null
+    },
+    {
+        "emailTracked": "ae20949e6e44493f9b4d693f5b3fec02@ct.vtex.com.br",
+        "approvedBy": null,
+        "cancelledBy": null,
+        "cancelReason": null,
+        "handlingData": null,
+        "orderId": "1255030916486-01",
+        "sequence": "510605",
+        "marketplaceOrderId": "",
+        "marketplaceServicesEndpoint": "http://oms.vtexinternal.com.br/api/oms?an=papajohns",
+        "sellerOrderId": "00-1254030916485-01",
+        "origin": "Marketplace",
+        "affiliateId": "",
+        "salesChannel": "1",
+        "merchantName": null,
+        "status": "handling",
+        "workflowIsInError": false,
+        "statusDescription": "Preparando Entrega",
+        "value": 8440017,
+        "creationDate": "2022-08-14T03:15:15.9534464+00:00",
+        "lastChange": "2022-08-14T03:15:36.2655707+00:00",
+        "orderGroup": null,
+        "totals": [
+            {
+                "id": "Items",
+                "name": "Total de los items",
+                "value": 6714300
+            },
+            {
+                "id": "Discounts",
+                "name": "Total de descuentos",
+                "value": 0
+            },
+            {
+                "id": "Shipping",
+                "name": "Costo total del envío",
+                "value": 378151
+            },
+            {
+                "id": "Tax",
+                "name": "Costo total del cambio",
+                "value": 1347566
+            }
+        ],
+        "items": [
+            {
+                "uniqueId": "8BECD78042D546AC98CD2604BBFBA443",
+                "id": "930",
+                "productId": "117",
+                "ean": "type:0;size:315;mass:0;edge:0;sauce:0",
+                "lockId": "00-1254030916485-01",
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "1",
+                "name": "Combo Goleador Mediana Masa-tradicional Borde-tradicional",
+                "refId": "0;315;0;0;0;C15",
+                "price": 6714300,
+                "listPrice": 6714300,
+                "manualPrice": null,
+                "priceTags": [
+                    {
+                        "name": "tax@price-51aeb7f1-d104-4e04-9985-7683edc9c354#82868460-1c41-4128-9cdd-3ce636452c86",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": "51aeb7f1-d104-4e04-9985-7683edc9c354",
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    },
+                    {
+                        "name": "tax@shipping-ae6398ee-72c7-473b-a784-cac8ae713ab8#a30a7b58-2767-442d-b6b1-d15ebede9264",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": "ae6398ee-72c7-473b-a784-cac8ae713ab8",
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    }
+                ],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156976-55-55/PJ-Combo-Goleador.jpg?v=637890266460830000",
+                "detailUrl": "/combo-goleador-117/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "930",
+                "priceValidUntil": null,
+                "commission": 0,
+                "tax": 1275717,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/1/20/",
+                    "categories": [
+                        {
+                            "id": 20,
+                            "name": "Promociones"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Pizzas"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 1.0000,
+                        "height": 1.0000,
+                        "length": 1.0000,
+                        "weight": 1.0000,
+                        "width": 1.0000
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0000,
+                "sellingPrice": 6714300,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 6714300,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 6714300,
+                    "total": 6714300
+                },
+                "taxCode": "",
+                "parentItemIndex": null,
+                "parentAssemblyBinding": null,
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": 6714300
+            },
+            {
+                "uniqueId": "D450E40696A14098BBD30C3A4FEE6F3A",
+                "id": "624",
+                "productId": "76",
+                "ean": "47-Base",
+                "lockId": "00-1254030916485-01",
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "1",
+                "name": "Ingredientes Base Pimienta roja sobre",
+                "refId": "47",
+                "price": 0,
+                "listPrice": 0,
+                "manualPrice": null,
+                "priceTags": [
+                    {
+                        "name": "tax@shipping-ae6398ee-72c7-473b-a784-cac8ae713ab8#a30a7b58-2767-442d-b6b1-d15ebede9264",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": "ae6398ee-72c7-473b-a784-cac8ae713ab8",
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    }
+                ],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156545-55-55/Pimienta-Roja.jpg?v=637745046141270000",
+                "detailUrl": "/ingredientes-base-76/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "624",
+                "priceValidUntil": null,
+                "commission": 0,
+                "tax": 0,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/13/19/",
+                    "categories": [
+                        {
+                            "id": 19,
+                            "name": "Ingredientes Base"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Modificadores"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 0.0002,
+                        "height": 1.0000,
+                        "length": 1.0000,
+                        "weight": 1.0000,
+                        "width": 1.0000
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0000,
+                "sellingPrice": 0,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 0,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 0,
+                    "total": 0
+                },
+                "taxCode": null,
+                "parentItemIndex": "0",
+                "parentAssemblyBinding": "sazonadores_Puedes retirar tus sazonadores",
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": 0
+            },
+            {
+                "uniqueId": "64F0ADAD035049F28CB2E2E60F9324C7",
+                "id": "625",
+                "productId": "76",
+                "ean": "46-Base",
+                "lockId": "00-1254030916485-01",
+                "itemAttachment": {
+                    "content": {},
+                    "name": null
+                },
+                "attachments": [],
+                "quantity": 1,
+                "seller": "1",
+                "name": "Ingredientes Base Sazonador especial sobre",
+                "refId": "46",
+                "price": 0,
+                "listPrice": 0,
+                "manualPrice": null,
+                "priceTags": [
+                    {
+                        "name": "tax@shipping-ae6398ee-72c7-473b-a784-cac8ae713ab8#a30a7b58-2767-442d-b6b1-d15ebede9264",
+                        "value": 19,
+                        "isPercentual": true,
+                        "identifier": "ae6398ee-72c7-473b-a784-cac8ae713ab8",
+                        "rawValue": 0.19,
+                        "rate": null,
+                        "jurisCode": null,
+                        "jurisType": null,
+                        "jurisName": null
+                    }
+                ],
+                "imageUrl": "https://papajohns.vteximg.com.br/arquivos/ids/156546-55-55/Sazonador-Italiano.jpg?v=637745046925230000",
+                "detailUrl": "/ingredientes-base-76/p",
+                "components": [],
+                "bundleItems": [],
+                "params": [],
+                "offerings": [],
+                "attachmentOfferings": [],
+                "sellerSku": "625",
+                "priceValidUntil": null,
+                "commission": 0,
+                "tax": 0,
+                "preSaleDate": null,
+                "additionalInfo": {
+                    "brandName": "Papa Joh's",
+                    "brandId": "2000000",
+                    "categoriesIds": "/13/19/",
+                    "categories": [
+                        {
+                            "id": 19,
+                            "name": "Ingredientes Base"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Modificadores"
+                        }
+                    ],
+                    "productClusterId": "138,142",
+                    "commercialConditionId": "1",
+                    "dimension": {
+                        "cubicweight": 0.0002,
+                        "height": 1.0000,
+                        "length": 1.0000,
+                        "weight": 1.0000,
+                        "width": 1.0000
+                    },
+                    "offeringInfo": null,
+                    "offeringType": null,
+                    "offeringTypeId": null
+                },
+                "measurementUnit": "un",
+                "unitMultiplier": 1.0000,
+                "sellingPrice": 0,
+                "isGift": false,
+                "shippingPrice": null,
+                "rewardValue": 0,
+                "freightCommission": 0,
+                "priceDefinition": {
+                    "sellingPrices": [
+                        {
+                            "value": 0,
+                            "quantity": 1
+                        }
+                    ],
+                    "calculatedSellingPrice": 0,
+                    "total": 0
+                },
+                "taxCode": null,
+                "parentItemIndex": "0",
+                "parentAssemblyBinding": "sazonadores_Puedes retirar tus sazonadores",
+                "callCenterOperator": null,
+                "serialNumbers": null,
+                "assemblies": [],
+                "costPrice": 0
+            }
+        ],
+        "marketplaceItems": [],
+        "clientProfileData": {
+            "id": "clientProfileData",
+            "email": "camilaospina117@gmail.com",
+            "firstName": "Camila",
+            "lastName": "Ospina",
+            "documentType": "cedulaCOL",
+            "document": "1193067836",
+            "phone": "+573204819257",
+            "corporateName": null,
+            "tradeName": null,
+            "corporateDocument": null,
+            "stateInscription": null,
+            "corporatePhone": null,
+            "isCorporate": false,
+            "userProfileId": "933ac1be-a19e-4451-aed9-fc86b31e12b0",
+            "userProfileVersion": null,
+            "customerClass": null
+        },
+        "giftRegistryData": null,
+        "marketingData": null,
+        "ratesAndBenefitsData": {
+            "id": "ratesAndBenefitsData",
+            "rateAndBenefitsIdentifiers": [
+                {
+                    "description": "IVA Productos",
+                    "featured": false,
+                    "id": "51aeb7f1-d104-4e04-9985-7683edc9c354",
+                    "name": "IVA Productos",
+                    "matchedParameters": {},
+                    "additionalInfo": null
+                },
+                {
+                    "description": "IVA Flete",
+                    "featured": false,
+                    "id": "ae6398ee-72c7-473b-a784-cac8ae713ab8",
+                    "name": "IVA Flete",
+                    "matchedParameters": {
+                        "slaIds": "domicilio lo antes posible"
+                    },
+                    "additionalInfo": null
+                }
+            ]
+        },
+        "shippingData": {
+            "id": "shippingData",
+            "address": {
+                "addressType": "residential",
+                "receiverName": "Camila Ospina",
+                "addressId": "8302209891205",
+                "versionId": null,
+                "entityId": null,
+                "postalCode": "11001",
+                "city": "Bogotá, D.c.",
+                "state": "BOGOTÁ, D.C.",
+                "country": "COL",
+                "street": "Cra. 7a #151-22",
+                "number": "151-22",
+                "neighborhood": "Kalima",
+                "complement": "Bloque C Apto 302",
+                "reference": null,
+                "geoCoordinates": [
+                    -74.0257527,
+                    4.7256326999999994
+                ]
+            },
+            "trackingHints": null,
+            "selectedAddresses": [
+                {
+                    "addressId": "8302209891205",
+                    "versionId": null,
+                    "entityId": null,
+                    "addressType": "residential",
+                    "receiverName": "Camila Ospina",
+                    "street": "Cra. 7a #151-22",
+                    "number": "151-22",
+                    "complement": "Bloque C Apto 302",
+                    "neighborhood": "Kalima",
+                    "postalCode": "11001",
+                    "city": "Bogotá, D.c.",
+                    "state": "BOGOTÁ, D.C.",
+                    "country": "COL",
+                    "reference": null,
+                    "geoCoordinates": [
+                        -74.0257527,
+                        4.7256326999999994
+                    ]
+                }
+            ]
+        },
+        "paymentData": {
+            "giftCards": [],
+            "transactions": [
+                {
+                    "isActive": true,
+                    "transactionId": "22CF5F7FE8B3410BAEB496E1A6A51795",
+                    "merchantName": "PAPAJOHNS",
+                    "payments": [
+                        {
+                            "id": "C7824ABEB81C4DF483A6EB75924BD6B7",
+                            "paymentSystem": "201",
+                            "paymentSystemName": "Pago contra entrega",
+                            "value": 8440017,
+                            "installments": 1,
+                            "referenceValue": 8440017,
+                            "cardHolder": null,
+                            "cardNumber": null,
+                            "firstDigits": null,
+                            "lastDigits": null,
+                            "cvv2": null,
+                            "expireMonth": null,
+                            "expireYear": null,
+                            "url": null,
+                            "giftCardId": null,
+                            "giftCardName": null,
+                            "giftCardCaption": null,
+                            "redemptionCode": null,
+                            "group": "promissory",
+                            "tid": null,
+                            "dueDate": null,
+                            "connectorResponses": {},
+                            "giftCardProvider": null,
+                            "giftCardAsDiscount": null,
+                            "koinUrl": null,
+                            "accountId": null,
+                            "parentAccountId": null,
+                            "bankIssuedInvoiceIdentificationNumber": null,
+                            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                            "bankIssuedInvoiceBarCodeNumber": null,
+                            "bankIssuedInvoiceBarCodeType": null,
+                            "billingAddress": null,
+                            "paymentOrigin": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "packageAttachment": {
+            "packages": []
+        },
+        "sellers": [
+            {
+                "id": "1",
+                "name": "PJ COL S.A.S",
+                "logo": "",
+                "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=papajohns"
+            }
+        ],
+        "callCenterOperatorData": null,
+        "followUpEmail": "609d811497ef48d795774fd4eb998b72@ct.vtex.com.br",
+        "lastMessage": null,
+        "hostname": "papajohns",
+        "invoiceData": null,
+        "changesAttachment": null,
+        "openTextField": null,
+        "roundingError": 0,
+        "orderFormId": "90bec482f1f74e7db03d7477827d55d1",
+        "commercialConditionData": null,
+        "isCompleted": true,
+        "customData": null,
+        "storePreferencesData": {
+            "countryCode": "COL",
+            "currencyCode": "COP",
+            "currencyFormatInfo": {
+                "CurrencyDecimalDigits": 0,
+                "CurrencyDecimalSeparator": ",",
+                "CurrencyGroupSeparator": ".",
+                "CurrencyGroupSize": 3,
+                "StartsWithCurrencySymbol": true
+            },
+            "currencyLocale": 9226,
+            "currencySymbol": "$",
+            "timeZone": "SA Pacific Standard Time"
+        },
+        "allowCancellation": false,
+        "allowEdition": false,
+        "isCheckedIn": false,
+        "marketplace": {
+            "baseURL": "http://oms.vtexinternal.com.br/api/oms?an=papajohns",
+            "isCertified": null,
+            "name": "papajohns"
+        },
+        "authorizedDate": "2022-08-14T03:15:20.9026980+00:00",
+        "invoicedDate": null,
+        "itemMetadata": null,
+        "subscriptionData": null,
+        "taxData": null,
+        "checkedInPickupPointId": null,
+        "cancellationData": null,
+        "clientPreferencesData": null
     }
 ]
