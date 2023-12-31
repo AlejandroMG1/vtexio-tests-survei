@@ -1,67 +1,84 @@
+import type { TransformCallback } from 'stream'
 import { Transform } from 'stream'
-import util from 'util'
 
-export function MockIncomingMessage(options) {
-  options = options || {}
+export class MockIncomingMessage extends Transform {
+  public method: string
+  public url: string
+  public headers: any
+  public rawHeaders: any
+  public _writableState: any
+  public _readableState: any
+  public _failError: any
+  constructor(options: {
+    method?: string
+    url?: string
+    headers?: { [key: string]: string }
+    rawHeaders?: unknown
+    [key: string]: unknown
+  }) {
+    super()
+    options = options || {}
 
-  Transform.call(this)
-  this._writableState.objectMode = true
-  this._readableState.objectMode = false
+    this._writableState.objectMode = true
+    this._readableState.objectMode = false
 
-  // Copy unreserved options
-  const reservedOptions = ['method', 'url', 'headers', 'rawHeaders']
+    // Copy unreserved options
+    const reservedOptions = ['method', 'url', 'headers', 'rawHeaders']
 
-  Object.keys(options).forEach(function (key) {
-    if (reservedOptions.indexOf(key) === -1) this[key] = options[key]
-  })
+    Object.keys(options).forEach((key) => {
+      if (reservedOptions.indexOf(key) === -1) (this as any)[key] = options[key]
+    })
 
-  this.method = options.method || 'GET'
-  this.url = options.url || ''
+    this.method = options.method || 'GET'
+    this.url = options.url || ''
 
-  // Set header names
-  this.headers = {}
-  this.rawHeaders = []
-  if (options.headers) {
-    Object.keys(options.headers).forEach(function (key) {
-      let val = options.headers[key]
+    // Set header names
+    this.headers = this.headers || {}
+    this.rawHeaders = []
 
-      if (val !== undefined) {
-        if (typeof val !== 'string') {
-          val = `${val}`
+    if (options.headers) {
+      Object.keys(options.headers).forEach((key) => {
+        const val = options?.headers?.[key]
+
+        if (!val) {
+          return
         }
 
         this.headers[key.toLowerCase()] = val
         this.rawHeaders.push(key)
         this.rawHeaders.push(val)
-      }
-    })
+      })
+    }
+
+    // Auto-end when no body
+    if (
+      this.method === 'GET' ||
+      this.method === 'HEAD' ||
+      this.method === 'DELETE'
+    ) {
+      this.end()
+    }
   }
 
-  // Auto-end when no body
-  if (
-    this.method === 'GET' ||
-    this.method === 'HEAD' ||
-    this.method === 'DELETE'
-  ) {
-    this.end()
+  public _transform(
+    chunk: string,
+    _encoding: string,
+    callback: TransformCallback
+  ): void | boolean {
+    if (this._failError) {
+      return this.emit('error', this._failError)
+    }
+
+    if (!Buffer.isBuffer(chunk)) {
+      chunk = JSON.stringify(chunk)
+    }
+
+    this.push(chunk)
+
+    callback()
   }
-}
 
-util.inherits(MockIncomingMessage, Transform)
-
-MockIncomingMessage.prototype._transform = function (chunk, encoding, next) {
-  if (this._failError) return this.emit('error', this._failError)
-
-  if (typeof chunk !== 'string' && !Buffer.isBuffer(chunk)) {
-    chunk = JSON.stringify(chunk)
+  protected _fail(error: unknown) {
+    this._failError = error
   }
-
-  this.push(chunk)
-
-  next()
-}
-
-// Causes the request to emit an error when the body is read.
-MockIncomingMessage.prototype._fail = function (error) {
-  this._failError = error
 }

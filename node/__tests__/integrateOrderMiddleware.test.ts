@@ -2,7 +2,7 @@ import { OMS } from '@vtex/clients'
 
 import orders from '../test_tools/prebuildMoks/orders.json'
 import { integrateOrder } from '../middlewares/integrateOrder'
-import { MockIncomingMessage } from '../test_tools/mockClass/MockIncomingMessage'
+import { MockIncomingMessage } from '../test_tools/mockClass/mockIncomingMessage'
 
 const mockOrders = orders
 
