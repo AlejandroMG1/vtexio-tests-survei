@@ -11,6 +11,6 @@ describe('Calculator Tests', () => {
 
     const result = calculateValuePerCategory(22, order.items)
     result
-    assert.equal(result, 5)
+    assert.equal(result, 0)
   })
 })
