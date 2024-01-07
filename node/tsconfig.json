@@ -6,7 +6,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "target": "es2019",
-    "types": ["mocha","chai","node"],
+    "types": ["mocha","node"],
     "resolveJsonModule":true
   },
   "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts", "tests/example.test.js"]
