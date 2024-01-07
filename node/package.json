@@ -13,6 +13,7 @@
     "@vtex/api": "6.46.0",
     "@vtex/tsconfig": "^0.5.6",
     "chai": "^5.0.0",
+    "esm": "^3.2.25",
     "mocha": "^10.2.0",
     "ts-node": "^10.9.2",
     "typescript": "3.9.7"
@@ -24,7 +25,7 @@
   },
   "scripts": {
     "lint": "tsc --noEmit --pretty",
-    "test": "mocha --require ts-node/register tests/**/*.test.ts"
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r esm -r ts-node/register tests/**/*.spec.ts"
   },
   "version": "0.2.22"
 }
