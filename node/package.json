@@ -31,7 +31,7 @@
   "scripts": {
     "lint": "tsc --noEmit --pretty",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r esm -r ts-node/register tests/**/*.spec.ts",
-    "test-coverage": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' nyc --reporter=text mocha -r esm -r ts-node/register tests/**/*.spec.ts"
+    "test-coverage": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' nyc --reporter=text --exclude=test_tools/** mocha -r esm -r ts-node/register tests/**/*.spec.ts"
   },
   "version": "0.2.22"
 }
