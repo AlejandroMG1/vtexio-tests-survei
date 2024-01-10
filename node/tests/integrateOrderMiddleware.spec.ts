@@ -1,15 +1,18 @@
 import { OMS, OrderDetailResponse } from '@vtex/clients'
 import { assert } from 'chai'
+import { replace, spy, stub} from 'sinon'
 
 import orders from '../test_tools/prebuildMoks/orders.json'
 import { integrateOrder } from '../middlewares/integrateOrder'
 import { MockIncomingMessage } from '../test_tools/mockClass/mockIncomingMessage'
-import { replace, spy} from 'sinon'
+const sapRequestConstructor = require('../helpers/sapRequestConstructor')
+
 
 const mockOrders:OrderDetailResponse[] = orders as unknown as OrderDetailResponse[]
 
 describe('IntegrateMiddlewareFunctionality', () => {
     let omsSpy: any
+    let functionStub: any
     let req = new MockIncomingMessage({
         method: 'POST',
     })
@@ -17,6 +20,9 @@ describe('IntegrateMiddlewareFunctionality', () => {
     beforeEach(() => {
         if (omsSpy) {
             omsSpy.restore()
+        }
+        if (functionStub) {
+            functionStub.restore()
         }
         req = new MockIncomingMessage({
             method: 'POST',
@@ -78,7 +84,31 @@ describe('IntegrateMiddlewareFunctionality', () => {
         })
         req.end()
         const oms = new OMS({} as any)
-        replace(oms, 'order', () => Promise.resolve(mockOrders[2]))
+        replace(oms, 'order', () => Promise.resolve(mockOrders[0]))
+        functionStub = stub(sapRequestConstructor, 'sapRequestConstructor').throws(new Error('invalidDate'))
+        
+        const ctx: any = {
+            clients: {
+                oms: oms,
+            },
+            req: {
+                req,
+            },
+        }
+        omsSpy = spy(oms, 'order')
+        await integrateOrder(ctx, () => Promise.resolve())
+        assert.equal(ctx.status,400)
+        assert.isDefined(ctx.body.message)
+        assert.isTrue(omsSpy.calledOnce)
+    })
+
+    it('error should res 500 and error message', async () => {
+        req.write({
+            OrderId: '1255030916486-01',
+        })
+        req.end()
+        const oms = new OMS({} as any)
+        replace(oms, 'order', () => Promise.reject(new Error('error')))
 
         const ctx: any = {
             clients: {
@@ -91,7 +121,7 @@ describe('IntegrateMiddlewareFunctionality', () => {
         omsSpy = spy(oms, 'order')
         await integrateOrder(ctx, () => Promise.resolve())
 
-        assert.equal(ctx.status,400)
+        assert.equal(ctx.status,500)
         assert.isDefined(ctx.body.message)
         assert.isTrue(omsSpy.calledOnce)
     })
