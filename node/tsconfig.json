@@ -8,5 +8,9 @@
     "target": "es2019",
     "resolveJsonModule": true,
   },
+  "ts-node": {
+    "transpileOnly": true
+  },
   "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts"]
 }
+  
