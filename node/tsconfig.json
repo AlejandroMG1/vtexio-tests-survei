@@ -9,5 +9,9 @@
     "types": ["mocha","node"],
     "resolveJsonModule":true
   },
+  "ts-node": {
+    "transpileOnly": true
+  },
   "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts", "tests/example.test.js"]
 }
+  

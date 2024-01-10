@@ -10,12 +10,14 @@
     "@types/mocha": "^10.0.6",
     "@types/node": "^12.0.0",
     "@types/ramda": "types/npm-ramda#dist",
+    "@types/sinon": "^17.0.2",
     "@vtex/api": "6.46.0",
     "@vtex/tsconfig": "^0.5.6",
     "chai": "^4.3.7",
     "esm": "^3.2.25",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
+    "sinon": "^17.0.1",
     "ts-node": "^10.9.2",
     "typescript": "3.9.7"
   },
@@ -28,7 +30,8 @@
   },
   "scripts": {
     "lint": "tsc --noEmit --pretty",
-    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' nyc mocha -r esm -r ts-node/register tests/**/*.spec.ts"
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r esm -r ts-node/register tests/**/*.spec.ts",
+    "test-coverage": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' nyc --reporter=text mocha -r esm -r ts-node/register tests/**/*.spec.ts"
   },
   "version": "0.2.22"
 }
