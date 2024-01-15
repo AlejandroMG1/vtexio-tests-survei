@@ -97,7 +97,7 @@ describe('IntegrateMiddlewareFunctionality', () => {
         })
         req.end()
         const oms = new OMS({} as any)
-        spyOn(oms, 'order').and.returnValue(Promise.resolve(new Error('error')))
+        spyOn(oms, 'order').and.returnValue(Promise.resolve(new Error('error') as any))
 
         const ctx: any = {
             clients: {
