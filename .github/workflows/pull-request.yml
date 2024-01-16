@@ -1,6 +1,6 @@
 name: IO actions
 'on':
-  pull_request:
+  [pull_request,workflow_dispatch]
 jobs:
   io-app-test:
     name: IO app test
