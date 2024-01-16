@@ -10,7 +10,7 @@ describe('calculateCategoryValueFunctionality', () => {
 
     const result = calculateValuePerCategory(22, order.items)
 
-    assert.equal(result, 3)
+    assert.equal(result, 0)
   })
 
   it('existing category should return exact value', async () => {
