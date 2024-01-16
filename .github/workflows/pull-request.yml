@@ -24,6 +24,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Run test on every builder directory
         uses: AlejandroMG1/customizable-io-app-test@master
+        with:
+          testCommand: test
   lint:
     name: Lint
     runs-on: ubuntu-latest
