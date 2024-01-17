@@ -26,11 +26,20 @@
   "jest": {
     "coveragePathIgnorePatterns": [
       "<rootDir>/test_tools/*"
-    ]
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
   },
   "scripts": {
     "lint": "tsc --noEmit --pretty",
-    "test": "jest --coverage"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "version": "0.2.22"
 }
