@@ -23,6 +23,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: Run test on every builder directory
-        uses: AlejandroMG1/customizable-io-app-test@master
+        uses: AlejandroMG1/customizable-io-app-test@node
         with:
           testCommand: test-coverage
